@@ -1,0 +1,12 @@
+{
+  "name": "pokemon-challenge",
+  "version": "1.0.0",
+  "description": "Desafio de escolher uma cidade e mostrar um pokemon de acordo com a temperatura da cidade que escolher",
+  "main": "index.php",
+  "author": "Diogo Valente",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1"
+  }
+}
