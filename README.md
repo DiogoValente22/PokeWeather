@@ -31,5 +31,5 @@ Basta digitar uma cidade no campo de busca e será exibido logo abaixo um **Poke
 
 ## Prints do projeto:
 
-<img src="assets/img/to_readme/print1.png">
-<img src="assets/img/to_readme/print2.png">
+<img src="assets/img/to_readme/print1.PNG">
+<img src="assets/img/to_readme/print2.PNG">
