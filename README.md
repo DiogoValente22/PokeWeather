@@ -28,3 +28,8 @@ Agora basta abrir o servidor no seu navegador clicando com CTRL + Botão esquerd
   - Nome do Pokémon seguindo as regras acima.
 ## Como usar?
 Basta digitar uma cidade no campo de busca e será exibido logo abaixo um **Pokemon (foto e nome)** (de acordo com as regras do desafio), a **cidade** que foi digitada, a **temperatura** atual e se está **chovendo**.
+
+## Prints do projeto:
+
+<img src="assets/img/to_readme/print1.png">
+<img src="assets/img/to_readme/print2.png">
