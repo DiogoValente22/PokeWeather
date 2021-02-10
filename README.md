@@ -2,12 +2,12 @@
 
   
 ## Pré-requisitos
-1. Ter o PHP instalado em sua máquina, recomendável usar a versão 7.3 ou superior.
-2. Use o servidor de preferencia ou abra o index.php e digite o seguinte comando no terminal:
+1. Ter o PHP instalado em sua máquina, recomendável usar a versão 7.4 ou superior.
+2. Use o servidor de preferencia, como xampp, ou abra o index.php e digite o seguinte comando no terminal:
 
 php -S localhost:8080
 
- Após digitar o comando abra ele com CTRL + Botão esquerdo do mouse.
+Agora basta abrir o servidor no seu navegador clicando com CTRL + Botão esquerdo do mouse.
 
 ## Como é o desafio?
 - Em uma página HTML deve ser possível informar uma cidade de qualquer lugar do mundo;
