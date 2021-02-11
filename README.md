@@ -1,11 +1,11 @@
 # Desafio Pokémon para Desenvolvedores
 
-  
+
 ## Pré-requisitos
 1. Ter o PHP instalado em sua máquina, recomendável usar a versão 7.4 ou superior.
 2. Use o servidor de preferencia, como xampp, ou abra o index.php e digite o seguinte comando no terminal:
 
-php -S localhost:8080
+<code>php -S localhost:8080</code>
 
 Agora basta abrir o servidor no seu navegador clicando com CTRL + Botão esquerdo do mouse.
 
