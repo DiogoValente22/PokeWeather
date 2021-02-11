@@ -34,4 +34,4 @@ Basta digitar uma cidade no campo de busca e será exibido logo abaixo um **Poke
 <img src="assets/img/to_readme/print1.PNG">
 <img src="assets/img/to_readme/print2.PNG">
 
-Créditos também ao GrandeDev (https://github.com/GrandeDev/), que me ajudou na parte de manipular as APIs ♥
+Créditos também ao <a href="https://github.com/GrandeDev/">GrandeDev</a>, que me ajudou na parte de manipular as APIs ♥
