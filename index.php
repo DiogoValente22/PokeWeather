@@ -1,7 +1,7 @@
 <?php
 
-require_once('./PokeApi.php');
-require_once('./WeatherApi.php');
+require_once('./APIs/PokeApi.php');
+require_once('./APIs/WeatherApi.php');
 
 $pokeApi = new PokeApi();
 $weatherApi = new WeatherApi();
@@ -133,10 +133,6 @@ if($city == '' or $city == ' ' or $city == null){
     </div>
 
 
-
-
-
-
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/index.js"></script>
@@ -145,7 +141,7 @@ if($city == '' or $city == ' ' or $city == null){
     
         $(document).ready(function(){
 
-
+            $('.pokemon-image img').fadeIn('slow');
 
         });  
 

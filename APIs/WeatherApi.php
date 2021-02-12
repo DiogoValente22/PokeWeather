@@ -3,7 +3,7 @@
 class weatherApi{
 
     // api key  => https://openweathermap.org/api
-    public $key = '63db28e81ced2933fab488f422613147';
+    private $key = '63db28e81ced2933fab488f422613147';
 
     public function getWeatherByCity($city) {
         $link = 'api.openweathermap.org/data/2.5/weather?q='.$city.'&appid='.$this->key;
