@@ -140,6 +140,8 @@ if($city == '' or $city == ' ' or $city == null){
     
         $(document).ready(function(){
 
+            //kk preciso refatorar isso 
+
             let poketype = $('#poke-type').text();
 
             if(poketype == '' || poketype == null){
