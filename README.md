@@ -1,5 +1,6 @@
-<h1 align="center">PokeWeather</h1>
-
+<h1 align="center">
+  PokeWeather
+</h1>
 
 ## Pré-requisitos
 1. Ter o PHP instalado em sua máquina, recomendável usar a versão 7.4 ou superior.
@@ -13,7 +14,7 @@ Agora basta abrir o servidor no seu navegador clicando com CTRL + Botão esquerd
 <code>[Thu Feb 11 23:07:51 2021] PHP 7.4.3 Development Server (http://localhost:8000) started</code>
 
 ## Como funciona?
-Basta digitar uma cidade no campo de busca e será exibido um **Pokemon (foto e nome)**,o **tipo** dele, a **cidade** que foi digitada, a **temperatura** atual, se está **chovendo** e o background irá mudar de acordo com o **tipo** do pokemon.
+Basta digitar uma cidade no campo de busca e será exibido um **Pokemon** aleatório, o **tipo** dele, a **cidade** que foi digitada, a **temperatura** atual dessa cidade, se está **chovendo** e o background irá mudar de acordo com o **tipo** do pokemon.
 
 ## Prints do projeto 
 <h3>O Background muda de acordo com o tipo do pokemon</h3>
