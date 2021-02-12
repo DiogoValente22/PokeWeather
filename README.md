@@ -9,7 +9,7 @@
 
 Agora basta abrir o servidor no seu navegador clicando com CTRL + Botão esquerdo do mouse.
 
-## Como usar?
+## Como funciona?
 Basta digitar uma cidade no campo de busca e será exibido um **Pokemon (foto e nome)** (de acordo com as regras do desafio), a **cidade** que foi digitada, a **temperatura** atual e se está **chovendo**.
 
 ## Prints do projeto:
@@ -17,3 +17,6 @@ Basta digitar uma cidade no campo de busca e será exibido um **Pokemon (foto e 
 <img src="assets/img/to_readme/print1.PNG">
 <img src="assets/img/to_readme/print2.PNG">
 
+## ✌️ Agradecimento
+> - GrandeDev - 
+> Me deu uma luz na hora de manipular as APIs
