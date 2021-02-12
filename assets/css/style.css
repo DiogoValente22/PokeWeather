@@ -1,12 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 *{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
 }
-.container-fluid{
+p{
+    color: white;
+}
+.bg-ice{
+    background-image: url(../img/bg/bg-ice.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+.bg-water{
+    background-image: url(../img/bg/bg-water2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+.bg-grass{
+    background-image: url(../img/bg/bg-grass2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+.bg-bug{
+    background-image: url(../img/bg/bg-bug.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+.bg-rock{
+    background-image: url(../img/bg/bg-rock2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+.bg-fire{
+    background-image: url(../img/bg/bg-fire.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+.bg-ground{
+    background-image: url(../img/bg/bg-ground.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+.bg-normal{
     background-color: #09101f;
-   
 }
+.bg-electric{
+    background-image: url(../img/bg/bg-rain.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
 .logo-image img{
     position: relative;
 
@@ -16,6 +58,7 @@
 .box{
     background-color: rgba(255,255,255,0.1);
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
 

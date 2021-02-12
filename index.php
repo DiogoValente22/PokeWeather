@@ -1,7 +1,7 @@
 <?php
 
-require_once('./APIs/PokeApi.php');
-require_once('./APIs/WeatherApi.php');
+require('./APIs/PokeApi.php');
+require('./APIs/WeatherApi.php');
 
 $pokeApi = new PokeApi();
 $weatherApi = new WeatherApi();
@@ -10,18 +10,20 @@ $city = $_GET['city'] ?? 'Curitiba';
 $data = $weatherApi->getWeatherByCity($city);
 $weatherCode = $data['cod'];
 
-$codeError = '';
+$msg = '';
 if($city == '' or $city == ' ' or $city == null){
-    $codeError = '<b>O campo está em branco. Por favor insira uma cidade';
+    $msg = '<b>O campo está em branco. Por favor insira uma cidade';
+    $pokeImg = '';
 }else if($weatherCode == 404){
-    $codeError = 'A cidade digitada não foi encontrada, verifique ortografia e tente novamente';
+    $msg = 'A cidade '. $city. 'digitada não foi encontrada, verifique ortografia e tente novamente';
+    $pokeImg = '';
 }else{
     $weather = $data['weather'][0]['main'] ?? '';
     $temp = round($data['main']['temp'] -273.15, 0);
     $type = '';
 
     if($temp < 5){
-        $pokemonType = 'ice';
+        $type = 'ice';
     } else if($temp >=5 && $temp < 10){
         $type = 'water';
     } else if($temp >=12 && $temp < 15){
@@ -52,6 +54,8 @@ if($city == '' or $city == ' ' or $city == null){
     $pokemonSearch = $pokeApi->getPokemonidByName($pokemonName);
     $pokemonId = $pokemonSearch['id'];
     $pokeImg = '<img src="https://pokeres.bastionbot.org/images/pokemon/'.$pokemonId.'.png" alt="pokemon" class="img-fluid my-4">';
+
+    $msg = "Em <b>$city</b>, $rain faz <b>$temp</b>ºC. Nessas redondezas existem Pokemons do tipo <span id='poke-type'><b>$type</b></span> e foi visto um <b>$pokemonName</b>.";
 }
 
 
@@ -71,7 +75,7 @@ if($city == '' or $city == ' ' or $city == null){
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="bg-water">
     
 
     <div class="container-fluid">
@@ -87,7 +91,7 @@ if($city == '' or $city == ' ' or $city == null){
 
                 <div class="box d-flex flex-column align-items-center">
 
-                    <p class="text-white p-3">Insira uma <b>cidade</b> para exibir um pokemon de acordo com o clima e a temperatura.</p>
+                    <p class="p-3" id="insert">Insira uma <b>cidade</b> para exibir um pokemon de acordo com o clima e a temperatura.</p>
 
                     <form method="GET">
                         <div class="container">
@@ -113,16 +117,11 @@ if($city == '' or $city == ' ' or $city == null){
                             echo $pokeImg;
                         ?>
                     </div>
-                    <p id="information" class="text-white p-3">
+                    <p id="information" class="p-3">
                         <?php
-                        if($weatherCode == 404){
-                            echo "Desculpe, não foi encontrado a cidade $city, verifique a ortografia e tente novamente.";
-                        }else if($city == '' or $city == ' ' or $city == null){
-                            echo "<b>O campo está em branco. Por favor insira uma cidade";
-                        }else {
-                            echo "Em <b>$city</b>, $rain faz <b>$temp</b>ºC. Nessas redondezas existem Pokemons do tipo <b>$type</b> e foi visto um <b>$pokemonName</b>.";
-                        }
                         
+                        echo $msg;
+
                         ?>
                     </p>
 
@@ -141,7 +140,52 @@ if($city == '' or $city == ' ' or $city == null){
     
         $(document).ready(function(){
 
-            $('.pokemon-image img').fadeIn('slow');
+            let poketype = $('#poke-type').text();
+
+            if(poketype == '' || poketype == null){
+                console.log("kk null");
+            }else if(poketype == 'ice'){
+                $('body').removeClass();
+                $('body').addClass('bg-ice');
+                $('.box').css('background-color', 'rgba(0,0,0,0.4)');
+            }else if(poketype == 'water'){
+                $('body').removeClass();
+                $('body').addClass('bg-water');
+                $('.box').css('background-color', 'rgba(255,255,255,0.6)');
+                $('p').css('color', 'black');
+            }else if(poketype == 'grass'){
+                $('body').removeClass();
+                $('body').addClass('bg-grass');
+                $('p').css('color', 'black');
+                $('.box').css('background-color', 'rgba(255,255,255,0.6)');
+            }else if(poketype == 'ground'){
+                $('body').removeClass();
+                $('body').addClass('bg-ground');
+                $('.box').css('background-color', 'rgba(255,255,255,0.6)');
+                $('p').css('color', 'black');
+            }else if(poketype == 'bug'){
+                $('body').removeClass();
+                $('body').addClass('bg-bug');
+                $('#insert').css('color', 'black');
+            }else if(poketype == 'rock'){
+                $('body').removeClass();
+                $('body').addClass('bg-rock');
+                $('.box').css('background-color', 'rgba(255,255,255,0.6)');
+                $('p').css('color', 'black');
+            }else if(poketype == 'fire'){
+                $('body').removeClass();
+                $('body').addClass('bg-fire');
+                $('.box').css('background-color', 'rgba(255,255,255,0.6)');
+                $('p').css('color', 'black');
+            }else if(poketype == 'normal'){
+                $('body').removeClass();
+                $('body').addClass('bg-normal');
+            }else if(poketype == 'electric'){
+                $('body').removeClass('bg-water');
+                $('body').addClass('bg-electric');
+                $('.box').css('background-color', 'rgba(255,255,255,0.6)');
+                $('p').css('color', 'black');
+            }
 
         });  
 

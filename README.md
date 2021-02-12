@@ -15,10 +15,24 @@ Agora basta abrir o servidor no seu navegador clicando com CTRL + Botão esquerd
 ## Como funciona?
 Basta digitar uma cidade no campo de busca e será exibido um **Pokemon (foto e nome)** (de acordo com as regras do desafio), a **cidade** que foi digitada, a **temperatura** atual e se está **chovendo**.
 
-## Prints do projeto:
-
-<img src="assets/img/to_readme/print1.PNG">
-<img src="assets/img/to_readme/print2.PNG">
+## Prints do projeto -
+<h3>O Background muda de acordo com o tipo do pokemon</h3>
+<h3>Tipo: Grass</h3>
+<img src="assets/img/to_readme/grass.PNG">
+<h3>Tipo: Bug</h3>
+<img src="assets/img/to_readme/bug.PNG">
+<h3>Tipo: Fire</h3>
+<img src="assets/img/to_readme/fire.PNG">
+<h3>Tipo: Ground</h3>
+<img src="assets/img/to_readme/ground.PNG">
+<h3>Tipo: Electric</h3>
+<img src="assets/img/to_readme/rain.PNG">
+<h3>Tipo: Water</h3>
+<img src="assets/img/to_readme/water.PNG">
+<h3>Tipo: Rock</h3>
+<img src="assets/img/to_readme/rock.PNG">
+<h3>Tipo: Ice</h3>
+<img src="assets/img/to_readme/ice.PNG">
 
 ## ✌️ Agradecimento
 <pre> - GrandeDev - 
