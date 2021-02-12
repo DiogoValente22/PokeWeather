@@ -18,6 +18,6 @@ Basta digitar uma cidade no campo de busca e será exibido um **Pokemon (foto e 
 <img src="assets/img/to_readme/print2.PNG">
 
 ## ✌️ Agradecimento
-> - GrandeDev - 
-
+<pre> - GrandeDev - 
 > Me deu uma luz na hora de manipular as APIs
+</pre>
