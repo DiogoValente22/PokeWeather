@@ -16,7 +16,7 @@ Agora basta abrir o servidor no seu navegador clicando com CTRL + Botão esquerd
 ## Como funciona?
 Basta digitar uma cidade no campo de busca e será exibido um **Pokemon** aleatório, o **tipo** dele, a **cidade** que foi digitada, a **temperatura** atual dessa cidade, se está **chovendo** e o background irá mudar de acordo com o **tipo** do pokemon.
 
-## Prints do projeto 
+## 📷 Prints do projeto 
 <h3>O Background muda de acordo com o tipo do pokemon</h3>
 <h3>Tipo: Grass</h3>
 <img src="assets/img/to_readme/grass.PNG">
