@@ -19,5 +19,5 @@ Basta digitar uma cidade no campo de busca e será exibido um **Pokemon (foto e 
 
 ## ✌️ Agradecimento
 <pre> - GrandeDev - 
-> Me deu uma luz na hora de manipular as APIs
+Me deu uma luz na hora de manipular as APIs
 </pre>
