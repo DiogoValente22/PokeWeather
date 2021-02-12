@@ -9,6 +9,7 @@
 <code>php -S localhost:8000</code>
 
 Agora basta abrir o servidor no seu navegador clicando com CTRL + Botão esquerdo do mouse no "http://localhost:8000".
+
 <code>[Thu Feb 11 23:07:51 2021] PHP 7.4.3 Development Server (http://localhost:8000) started</code>
 
 ## Como funciona?
