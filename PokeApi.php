@@ -2,7 +2,7 @@
 
 class pokeApi{
 
-    public $link = 'https://pokeapi.co/api/v2/';
+    private $link = 'https://pokeapi.co/api/v2/';
 
     public function getPokemonByType($type){
         $fullLink = $this->link.'type/'.$type;
