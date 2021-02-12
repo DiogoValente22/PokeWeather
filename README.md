@@ -1,4 +1,4 @@
-<center> <h1>PokeWeather</h1> </center>
+<h1 align="center">PokeWeather</h1>
 
 
 ## Pré-requisitos
