@@ -136,62 +136,7 @@ if($city == '' or $city == ' ' or $city == null){
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/index.js"></script>
 
-    <script type="text/javascript">
-    
-        $(document).ready(function(){
-
-            //kk preciso refatorar isso 
-
-            let poketype = $('#poke-type').text();
-
-            if(poketype == '' || poketype == null){
-                console.log("kk null");
-            }else if(poketype == 'ice'){
-                $('body').removeClass();
-                $('body').addClass('bg-ice');
-                $('.box').css('background-color', 'rgba(0,0,0,0.4)');
-            }else if(poketype == 'water'){
-                $('body').removeClass();
-                $('body').addClass('bg-water');
-                $('.box').css('background-color', 'rgba(255,255,255,0.6)');
-                $('p').css('color', 'black');
-            }else if(poketype == 'grass'){
-                $('body').removeClass();
-                $('body').addClass('bg-grass');
-                $('p').css('color', 'black');
-                $('.box').css('background-color', 'rgba(255,255,255,0.6)');
-            }else if(poketype == 'ground'){
-                $('body').removeClass();
-                $('body').addClass('bg-ground');
-                $('.box').css('background-color', 'rgba(255,255,255,0.6)');
-                $('p').css('color', 'black');
-            }else if(poketype == 'bug'){
-                $('body').removeClass();
-                $('body').addClass('bg-bug');
-                $('#insert').css('color', 'black');
-            }else if(poketype == 'rock'){
-                $('body').removeClass();
-                $('body').addClass('bg-rock');
-                $('.box').css('background-color', 'rgba(255,255,255,0.6)');
-                $('p').css('color', 'black');
-            }else if(poketype == 'fire'){
-                $('body').removeClass();
-                $('body').addClass('bg-fire');
-                $('.box').css('background-color', 'rgba(255,255,255,0.6)');
-                $('p').css('color', 'black');
-            }else if(poketype == 'normal'){
-                $('body').removeClass();
-                $('body').addClass('bg-normal');
-            }else if(poketype == 'electric'){
-                $('body').removeClass('bg-water');
-                $('body').addClass('bg-electric');
-                $('.box').css('background-color', 'rgba(255,255,255,0.6)');
-                $('p').css('color', 'black');
-            }
-
-        });  
-
-    </script>
+    <script type="text/javascript" src="assets/js/mudarBg.js"></script>
 
 </body>
 </html>
