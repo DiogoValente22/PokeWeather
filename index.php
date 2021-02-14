@@ -6,7 +6,7 @@ require('./APIs/WeatherApi.php');
 $pokeApi = new PokeApi();
 $weatherApi = new WeatherApi();
 
-$city = $_GET['city'] ?? 'Curitiba';
+$city = $_GET['city'] ?? 'curitiba'; // curitiba vai vir como padrão
 $data = $weatherApi->getWeatherByCity($city);
 $weatherCode = $data['cod'];
 

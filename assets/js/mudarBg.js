@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    //kk preciso refatorar isso [check]
+    //kk preciso refatorar isso
 
     function mudarBg(section){
         $('body').removeClass();
