@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    sections = ['bg-ice', 'bg-water', 'bg-grass', 'bg-ground', 'bg-bug','bg-rock', 'bg-fire', 'bg-normal', 'bg-electric', 'bg-null'];
+    sections = ['bg-ice', 'bg-water', 'bg-grass', 'bg-ground', 'bg-bug','bg-rock', 'bg-fire', 'bg-normal', 'bg-electric'];
 
     let poketype = $('#poke-type').text();
 
