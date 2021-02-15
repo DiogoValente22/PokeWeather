@@ -15,7 +15,7 @@ if($city == '' or $city == ' ' or $city == null){
     $msg = '<b>O campo está em branco. Por favor insira uma cidade';
     $pokeImg = '';
 }else if($weatherCode == 404){
-    $msg = 'A cidade '. $city. ' não foi encontrada, verifique ortografia e tente novamente';
+    $msg = 'A cidade '. $city. ' não foi encontrada. Verifique a ortografia e tente novamente.';
     $pokeImg = '<img src="assets/img/pokemons/404.jpg" alt="404" class="img-fluid my-4">';
 }else{
     $weather = $data['weather'][0]['main'] ?? '';
