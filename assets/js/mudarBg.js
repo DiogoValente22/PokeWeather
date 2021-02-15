@@ -1,12 +1,5 @@
 $(document).ready(function(){
 
-    //kk preciso refatorar isso
-
-    function mudarBg(section){
-        $('body').removeClass();
-        $('body').addClass(section);
-    }
-
     sections = ['bg-ice', 'bg-water', 'bg-grass', 'bg-ground', 'bg-bug','bg-rock', 'bg-fire', 'bg-normal', 'bg-electric', 'bg-null'];
 
     let poketype = $('#poke-type').text();
@@ -35,6 +28,6 @@ $(document).ready(function(){
         index = 8;
     }
 
-    mudarBg(sections[index]);
-
+    $('body').removeClass();
+    $('body').addClass(sections[index]);
 });
