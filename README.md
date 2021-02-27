@@ -18,7 +18,7 @@ Basta digitar uma cidade no campo de busca e será exibido um **Pokemon** aleat�
 
 ## 📷 Prints do projeto 
 <h3>O Background muda de acordo com o tipo do pokemon que aparecer</h3>
-<h4>Edit: alterei um pouco a box, já já atualizo os prints.</h4>
+<h4>Edit: alterei as imagens dos bg e a box central. já já atualizo os prints.</h4>
 <h3>Tipo: Grass</h3>
 <img src="assets/img/to_readme/grass.PNG">
 <h3>Tipo: Bug</h3>
