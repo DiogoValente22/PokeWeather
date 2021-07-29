@@ -13,8 +13,8 @@ Agora basta abrir o servidor no seu navegador clicando com CTRL + Botão esquerd
 
 <code>[Thu Feb 11 23:07:51 2021] PHP 7.4.3 Development Server (http://localhost:8000) started</code>
 
-## Como funciona?
-Basta digitar uma cidade no campo de busca e será exibido um **Pokemon** aleatório, o **tipo** dele, a **cidade** que foi digitada, a **temperatura** atual dessa cidade, se está **chovendo** e o background irá mudar de acordo com o **tipo** do pokemon.
+## Como funciona esse desafio?
+Basta digitar uma cidade no campo de busca e será exibido um **Pokemon** aleatório, o **tipo** dele e a **cidade** que foi digitada de acordo com a **temperatura** e se está **chovendo** ou não nessa cidade. O background irá mudar de acordo com o **tipo** do pokemon.
 
 ## 📷 Prints do projeto 
 <h3>O Background muda de acordo com o tipo do pokemon que aparecer</h3>
